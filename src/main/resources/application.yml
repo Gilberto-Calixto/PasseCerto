@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: PassCerto
+  datasource:
+    driver-class-name: org.hsqldb.jdbc.JDBCDriver
+    url: jdbc:hsqldb:file:src/main/resources/database/myDb;shutdowm=true
